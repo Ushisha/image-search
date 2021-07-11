@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 
+import "./SearchBar.css";
 class SearchBar extends React.Component {
-  state = { term: '' };
-
-  onFormSubmit = event => {
+  state = { term: "yoga" };
+  componentDidMount() {
+    this.props.onSubmit(this.state.term);
+  }
+  onFormSubmit = (event) => {
     event.preventDefault();
 
     this.props.onSubmit(this.state.term);
@@ -15,10 +18,12 @@ class SearchBar extends React.Component {
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
             <label>Image Search</label>
+
             <input
               type="text"
+              placeholder="Search"
               value={this.state.term}
-              onChange={e => this.setState({ term: e.target.value })}
+              onChange={(e) => this.setState({ term: e.target.value })}
             />
           </div>
         </form>
