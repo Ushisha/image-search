@@ -1,8 +1,7 @@
 import React from "react";
 
-import "./SearchBar.css";
 class SearchBar extends React.Component {
-  state = { term: "yoga" };
+  state = { term: "japan" };
   componentDidMount() {
     this.props.onSubmit(this.state.term);
   }
