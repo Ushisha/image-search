@@ -11,5 +11,5 @@ Image searching app using Unsplash API
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
-- Mobile-first workflow
+- -React
 - [Unsplush API](https://unsplash.com/developers)
