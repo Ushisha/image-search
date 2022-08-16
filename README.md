@@ -1,6 +1,6 @@
 # Image searching
 
-Image searching app using Unsplash API
+Image searching component using Unsplash API
 
 ## Links
 
