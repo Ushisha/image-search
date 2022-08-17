@@ -13,3 +13,4 @@ Image searching component using Unsplash API
 - CSS Grid
 - React
 - [Unsplush API](https://unsplash.com/developers)
+- [Axios](https://www.npmjs.com/package/axios) - simple Promise-based HTTP client for the browser and Node
